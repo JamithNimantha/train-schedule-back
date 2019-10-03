@@ -1,0 +1,39 @@
+{
+  "name": "train-schedule-back",
+  "version": "1.0.0",
+  "description": "sri lankan train schedule web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamith-nimantha/train-schedule-back.git"
+  },
+  "keywords": [
+    "sri",
+    "lanka",
+    "trains",
+    "trains-schedules"
+  ],
+  "author": "Jamith Nimantha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamith-nimantha/train-schedule-back/issues"
+  },
+  "homepage": "https://github.com/jamith-nimantha/train-schedule-back#readme",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
